@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".DepartHomePage"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        >
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Notice Head"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_marginHorizontal="30sp"
+            android:id="@+id/inputnoticehead"
+            android:layout_marginBottom="10sp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Notice Body"
+            android:layout_marginHorizontal="30sp"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:id="@+id/inputnoticebody"
+            android:layout_marginBottom="10sp"
+            />
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upload File"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:id="@+id/btnupload"
+            android:layout_marginBottom="10sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No file is Selected"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:id="@+id/selectedpdf"
+            android:layout_marginBottom="10sp"
+            />
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Insert"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:id="@+id/btninsert"
+            android:layout_marginBottom="10sp"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
